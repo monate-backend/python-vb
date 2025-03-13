@@ -2,9 +2,9 @@
 
 Public Class Form1
     Private Sub RunButton_Click(sender As Object, e As EventArgs) Handles RunButton.Click
-        Dim pythonExe As String = "E:\Work\python-vb\.venv\Scripts\python.exe"
+        Dim pythonExe As String = ".venv\Scripts\python.exe"
 
-        Dim scriptPath As String = "E:\Work\python-vb\work.py"
+        Dim scriptPath As String = "work.py"
 
         Dim param1 As String = Mean1Box.Text
         Dim param2 As String = Varience1Box.Text
